@@ -5,7 +5,8 @@ url = "https://hmcl-funapp-openai-ci-01t.azurewebsites.net/hero-echo-genai-mvp1/
 
 # URL parameters
 params = {
-    "target": "test_snowflake_H3267dnDw3NuybXdto2"
+    # "target": "test_snowflake_H3267dnDw3NuybXdto2"
+    "target": "test_nl2sql_dbquery_Hq5Klm5X18EdbsU"
 }
 
 # Body of the request
@@ -18,7 +19,8 @@ body = {
         "database": "your_database",
         "schema": "your_schema"
     },
-    "sql": "some sql query"
+    # "sql": "some sql query"
+    "query": "What is the most common complaint for xoom? in the last two weeks?"
 }
 
 # Make the POST request
